@@ -1,0 +1,22 @@
+{
+ "manifest_version": 2,
+  "name": "SWEET",
+ "description": "This extension counts song for certain playlist",
+ "version": "1.0",
+"content_scripts": [
+ {
+ "matches": ["<all_urls>"],
+
+
+"js": ["main.js"],
+
+ "css": ["main.css"]
+ }
+ ],
+
+ "page_action": {
+ "default_icon": "img.png",
+ "default_popup": "popup.html",
+ "default_title": "SWEET"
+ }
+}
