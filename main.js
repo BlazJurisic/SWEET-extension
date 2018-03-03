@@ -4,7 +4,7 @@ const songCounter = () => {
     const origin = window.location.origin 
     const songId = url.searchParams.get("v")
     const playlistId = url.searchParams.get("list")
-    if(window.location.origin == "https://www.youtube.com" && songId && playlistId === playlist) {
+    if(window.location.origin === "https://www.youtube.com" && songId && playlistId === playlist) {
         const numberOfPlays = parseInt(window.localStorage.getItem(songId)) || 0
         window.localStorage.setItem(songId, numberOfPlays + 1)
         alert(`counter: ${numberOfPlays + 1}`)        
