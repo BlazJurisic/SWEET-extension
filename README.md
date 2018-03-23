@@ -11,4 +11,4 @@ Chrome extension that counts number of played songs in playlist
 - [ ] Excel export
 - [ ] Google analytics
 
-### Thanks Matej Dzijan for forcing me to make this and learn how extensions work.
+##### Thanks Matej Dzijan for forcing me to make this and learn how extensions work.
