@@ -1,8 +1,8 @@
-## SWEET-extension
+# SWEET-extension
 Chrome extension that counts number of played songs in playlist
 
 
-# TODO: 
+## TODO: 
 - [X] Saving id's in local storage
 - [X] Creating bundle with webpack (not pushed)
 - [ ] Implementing UI
