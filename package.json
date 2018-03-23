@@ -1,0 +1,25 @@
+{
+  "name": "SWEET-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension that counts number of played songs in playlist",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlazJurisic/SWEET-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlazJurisic/SWEET-extension/issues"
+  },
+  "homepage": "https://github.com/BlazJurisic/SWEET-extension#readme",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
